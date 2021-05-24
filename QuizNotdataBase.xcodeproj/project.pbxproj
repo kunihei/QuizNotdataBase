@@ -56,15 +56,39 @@
 		BAD7BC13265BB08000142514 /* QuizNotdataBase */ = {
 			isa = PBXGroup;
 			children = (
-				BAD7BC14265BB08000142514 /* AppDelegate.swift */,
-				BAD7BC16265BB08000142514 /* SceneDelegate.swift */,
-				BAD7BC18265BB08000142514 /* ViewController.swift */,
-				BAD7BC1A265BB08000142514 /* Main.storyboard */,
-				BAD7BC1D265BB08100142514 /* Assets.xcassets */,
-				BAD7BC1F265BB08100142514 /* LaunchScreen.storyboard */,
+				BAD7BC2A265BB13600142514 /* Model */,
+				BAD7BC28265BB11500142514 /* View */,
+				BAD7BC29265BB12800142514 /* Controller */,
 				BAD7BC22265BB08100142514 /* Info.plist */,
 			);
 			path = QuizNotdataBase;
+			sourceTree = "<group>";
+		};
+		BAD7BC28265BB11500142514 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAD7BC1A265BB08000142514 /* Main.storyboard */,
+				BAD7BC1D265BB08100142514 /* Assets.xcassets */,
+				BAD7BC1F265BB08100142514 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAD7BC29265BB12800142514 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BAD7BC14265BB08000142514 /* AppDelegate.swift */,
+				BAD7BC16265BB08000142514 /* SceneDelegate.swift */,
+				BAD7BC18265BB08000142514 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BAD7BC2A265BB13600142514 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shouhei.QuizNotdataBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +337,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shouhei.QuizNotdataBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
