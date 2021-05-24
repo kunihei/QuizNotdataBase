@@ -1,24 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Js6-a1-7po">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QuizNotdataBase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="emU-QL-Tqc">
+                                <rect key="frame" x="16" y="338" width="343" height="287"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTz-nB-tOe">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="75"/>
+                                        <color key="backgroundColor" red="0.81156303870932212" green="1" blue="0.81460864329687133" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="75" id="7lh-xi-mgP"/>
+                                            <constraint firstAttribute="width" constant="343" id="pIr-Go-jUU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <state key="normal" title="クイズ登録">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="GMY-Op-Qvy" kind="show" id="7ej-Qv-c0B"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZF6-j5-VOX">
+                                        <rect key="frame" x="0.0" y="106" width="343" height="75"/>
+                                        <color key="backgroundColor" red="0.98226747229389" green="1" blue="0.65454689644577213" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="75" id="ZKL-HB-7SX"/>
+                                            <constraint firstAttribute="width" constant="343" id="r3z-bz-058"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <state key="normal" title="クイズに挑戦">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="T6f-fT-54s" kind="show" id="KWL-2w-6GF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0YP-m3-rY4">
+                                        <rect key="frame" x="0.0" y="212" width="343" height="75"/>
+                                        <color key="backgroundColor" red="1" green="0.75129543530664999" blue="0.74112596013066856" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="343" id="Z0d-Ek-dnt"/>
+                                            <constraint firstAttribute="height" constant="75" id="m2L-c2-cia"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <state key="normal" title="クイズの設定">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="0To-W1-8vt"/>
+                                    <constraint firstAttribute="height" constant="287" id="sEU-QA-Bcz"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MENU" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1Q-hQ-4FR">
+                                <rect key="frame" x="0.0" y="88" width="375" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="ebP-uc-lPX"/>
+                                    <constraint firstAttribute="height" constant="73" id="ome-cZ-lue"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="emU-QL-Tqc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="26P-89-aLf"/>
+                            <constraint firstItem="emU-QL-Tqc" firstAttribute="top" secondItem="s1Q-hQ-4FR" secondAttribute="bottom" constant="177" id="LbC-bj-O2R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="emU-QL-Tqc" secondAttribute="trailing" constant="16" id="e3J-JT-jzh"/>
+                            <constraint firstItem="s1Q-hQ-4FR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tKd-Zs-hxW"/>
+                            <constraint firstItem="s1Q-hQ-4FR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zdB-Hu-lE9"/>
+                            <constraint firstItem="s1Q-hQ-4FR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="88" id="zxD-aO-GDC"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="g2E-Zm-ARW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="976.79999999999995" y="93.842364532019715"/>
+        </scene>
+        <!--RegisterQuiz-->
+        <scene sceneID="wAC-zS-d8K">
+            <objects>
+                <viewControllerPlaceholder storyboardName="RegisterQuiz" id="GMY-Op-Qvy" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="rdi-aY-HUr"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="js3-be-ZMD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1680" y="19.95073891625616"/>
+        </scene>
+        <!--QuizMenu-->
+        <scene sceneID="ymr-gD-LpY">
+            <objects>
+                <viewControllerPlaceholder storyboardName="QuizMenu" id="T6f-fT-54s" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="skN-Cb-9eo"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JCs-6S-ipB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1666" y="140"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="I6Y-CS-MEc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Js6-a1-7po" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c8f-Dp-ssy">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="9Ln-nh-h9V"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W0k-WN-pGr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.399999999999999" y="93.842364532019715"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
