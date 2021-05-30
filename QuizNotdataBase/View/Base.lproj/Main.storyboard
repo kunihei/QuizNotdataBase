@@ -45,9 +45,6 @@
                                         <state key="normal" title="クイズに挑戦">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="T6f-fT-54s" kind="show" id="KWL-2w-6GF"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0YP-m3-rY4">
                                         <rect key="frame" x="0.0" y="212" width="343" height="75"/>
@@ -90,6 +87,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="g2E-Zm-ARW"/>
+                    <connections>
+                        <segue destination="T6f-fT-54s" kind="show" id="rfm-5F-gqB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -27,14 +27,22 @@
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Eux-mQ-Icb">
                                         <rect key="frame" x="0.0" y="32" width="343" height="80"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <color key="textColor" systemColor="labelColor"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="343" id="Oav-lk-aiY"/>
+                                            <constraint firstAttribute="height" constant="80" id="xzF-gf-xht"/>
+                                        </constraints>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="Eux-mQ-Icb" firstAttribute="leading" secondItem="qiw-pw-apn" secondAttribute="leading" id="11n-Tr-eSm"/>
                                     <constraint firstAttribute="height" constant="112" id="3aI-aJ-UHa"/>
+                                    <constraint firstItem="Eux-mQ-Icb" firstAttribute="top" secondItem="DGD-9d-Igr" secondAttribute="bottom" constant="8" symbolic="YES" id="NIs-Gb-VZi"/>
+                                    <constraint firstAttribute="trailing" secondItem="Eux-mQ-Icb" secondAttribute="trailing" id="rHz-H8-cJl"/>
+                                    <constraint firstAttribute="bottom" secondItem="Eux-mQ-Icb" secondAttribute="bottom" id="rol-cO-LhF"/>
                                     <constraint firstAttribute="width" constant="343" id="voS-wM-lkA"/>
                                 </constraints>
                             </stackView>
@@ -49,14 +57,22 @@
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aYo-Wn-RoD">
                                         <rect key="frame" x="0.0" y="32" width="343" height="66"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <color key="textColor" systemColor="labelColor"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="66" id="V4Q-yL-KEd"/>
+                                            <constraint firstAttribute="width" constant="343" id="cre-dn-utq"/>
+                                        </constraints>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="aYo-Wn-RoD" firstAttribute="leading" secondItem="iOF-1m-TNx" secondAttribute="leading" id="3ce-Ch-54S"/>
+                                    <constraint firstItem="aYo-Wn-RoD" firstAttribute="top" secondItem="T00-rk-P84" secondAttribute="bottom" constant="8" symbolic="YES" id="OgM-kD-fTg"/>
                                     <constraint firstAttribute="width" constant="343" id="UDd-IJ-H6W"/>
+                                    <constraint firstAttribute="bottom" secondItem="aYo-Wn-RoD" secondAttribute="bottom" id="eeg-fJ-zBf"/>
+                                    <constraint firstAttribute="trailing" secondItem="aYo-Wn-RoD" secondAttribute="trailing" id="h3m-h9-Blb"/>
                                     <constraint firstAttribute="height" constant="98" id="rAU-uj-oBc"/>
                                 </constraints>
                             </stackView>
