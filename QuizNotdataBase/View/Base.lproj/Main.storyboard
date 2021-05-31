@@ -89,6 +89,7 @@
                     <navigationItem key="navigationItem" id="g2E-Zm-ARW"/>
                     <connections>
                         <segue destination="T6f-fT-54s" kind="show" id="rfm-5F-gqB"/>
+                        <segue destination="xuu-D3-YrY" kind="show" id="6Nb-kW-orN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -114,6 +115,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JCs-6S-ipB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1666" y="140"/>
+        </scene>
+        <!--EditQuiz-->
+        <scene sceneID="2eb-Un-m8n">
+            <objects>
+                <viewControllerPlaceholder storyboardName="EditQuiz" id="xuu-D3-YrY" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="4XZ-qm-PPd"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u9h-sJ-IQh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1658" y="239"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="I6Y-CS-MEc">

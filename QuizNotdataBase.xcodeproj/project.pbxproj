@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA4E2B6B2665126600097232 /* EditQuiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4E2B6A2665126600097232 /* EditQuiz.storyboard */; };
 		BA817A7C265BD694006943EB /* QuizMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA817A7B265BD694006943EB /* QuizMenu.storyboard */; };
 		BAD7BC15265BB08000142514 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD7BC14265BB08000142514 /* AppDelegate.swift */; };
 		BAD7BC17265BB08000142514 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD7BC16265BB08000142514 /* SceneDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA4E2B6A2665126600097232 /* EditQuiz.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditQuiz.storyboard; sourceTree = "<group>"; };
 		BA817A7B265BD694006943EB /* QuizMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QuizMenu.storyboard; sourceTree = "<group>"; };
 		BAD7BC11265BB08000142514 /* QuizNotdataBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizNotdataBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD7BC14265BB08000142514 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				BAD7BC1A265BB08000142514 /* Main.storyboard */,
+				BA4E2B6A2665126600097232 /* EditQuiz.storyboard */,
 				BAD7BC2B265BB36E00142514 /* RegisterQuiz.storyboard */,
 				BA817A7B265BD694006943EB /* QuizMenu.storyboard */,
 				BAD7BC1D265BB08100142514 /* Assets.xcassets */,
@@ -159,6 +162,7 @@
 				BAD7BC1E265BB08100142514 /* Assets.xcassets in Resources */,
 				BAD7BC1C265BB08000142514 /* Main.storyboard in Resources */,
 				BA817A7C265BD694006943EB /* QuizMenu.storyboard in Resources */,
+				BA4E2B6B2665126600097232 /* EditQuiz.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

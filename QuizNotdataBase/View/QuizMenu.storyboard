@@ -70,7 +70,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ITZ-R4-wck" firstAttribute="top" secondItem="k6B-i6-b9N" secondAttribute="bottom" constant="331" id="Kyh-L6-gFE"/>
                             <constraint firstItem="SrG-GC-Xzo" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="LrV-iZ-QIG"/>
@@ -190,7 +190,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Msa-Dp-oOO"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="74Q-Gq-gcu" firstAttribute="top" secondItem="f1F-7S-Rbs" secondAttribute="bottom" constant="36" id="1mD-vZ-4hK"/>
                             <constraint firstItem="74Q-Gq-gcu" firstAttribute="leading" secondItem="Msa-Dp-oOO" secondAttribute="leading" constant="20" id="7bH-yI-w5u"/>
@@ -379,7 +379,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2jh-SF-IrG"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="arA-La-vJ3" firstAttribute="leading" secondItem="2jh-SF-IrG" secondAttribute="leading" constant="157" id="6Fk-2C-rLT"/>
                             <constraint firstItem="2jh-SF-IrG" firstAttribute="trailing" secondItem="OQe-wL-SKm" secondAttribute="trailing" constant="20" id="6UR-Iv-pk3"/>
@@ -541,7 +541,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6r9-dj-2FX"/>
+        <segue reference="qYU-oO-RQ2"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
